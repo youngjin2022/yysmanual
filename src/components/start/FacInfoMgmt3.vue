@@ -90,7 +90,7 @@
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt6.png">
+                            src="../../assets/images/FacInfoMgmt6.png"> 
                         </v-img>
                     </v-col>
                 </v-col>
