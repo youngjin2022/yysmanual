@@ -83,18 +83,24 @@
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
                         <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 2 &#41; 건물정보 설정하기.
+                            STEP 2 &#41; 생활실정보 설정하기.
                         </div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt6.png"> 
+                            src="../../assets/images/FacInfoMgmt7.png">
                         </v-img>
                     </v-col>
                 </v-col>
-               
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 생활실정보를 생성하기 위해 생활실종류를 먼저 추가해주세요.</div>
+                    </v-card>
+                </v-col>
             </v-row>
         </v-col>
         <v-spacer></v-spacer>
