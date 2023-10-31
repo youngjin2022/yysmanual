@@ -65,7 +65,7 @@
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
+                            src="../../assets/images/BnftOfrRec.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -79,24 +79,11 @@
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus1.png">
+                            src="../../assets/images/BnftOfrRec1.png">
                         </v-img>
                     </v-col>
                 </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus2.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
+                
             </v-row>
         </v-col>
         <v-spacer></v-spacer>

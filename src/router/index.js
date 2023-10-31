@@ -521,8 +521,8 @@ export const router = new VueRouter({
             props: true,
         },
         {
-            path: '/hlthBlnftSrvRcrd/NrsngDocTab    ',
-            name: 'NrsngDocTab  ',
+            path: '/hlthBlnftSrvRcrd/NrsngDocTab',
+            name: 'NrsngDocTab',
             component: NrsngDocTab  ,
             props: true,
         },
