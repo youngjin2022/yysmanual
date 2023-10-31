@@ -10,6 +10,9 @@ import FacInfoMgmt1 from '../components/start/FacInfoMgmt1.vue'
 import FacInfoMgmt2 from '../components/start/FacInfoMgmt2.vue'
 import FacInfoMgmt3 from '../components/start/FacInfoMgmt3.vue'
 import FacInfoMgmt4 from '../components/start/FacInfoMgmt4.vue'
+import BlnftAmntInfNew from '../components/start/BlnftAmntInfNew.vue'
+import EmpInfMgmtNew from '../components/start/EmpInfMgmtNew.vue'
+import BnfcrInfrmMgmt from '../components/start/BnfcrInfrmMgmt.vue'
 
 import BnfcrInfrmMgmtWrt from '../components/bnfcrInfrmMgmt/BnfcrInfrmMgmtWrt.vue'
 import BnfcrExtLinkRec from '../components/bnfcrInfrmMgmt/BnfcrExtLinkRec.vue'
@@ -275,6 +278,24 @@ export const router = new VueRouter({
             path: '/start/FacInfoMgmt4',
             name: 'FacInfoMgmt4',
             component: FacInfoMgmt4,
+            props: true,
+        },
+        {
+            path: '/start/BlnftAmntInfNew',
+            name: 'BlnftAmntInfNew',
+            component: BlnftAmntInfNew,
+            props: true,
+        },
+        {
+            path: '/start/EmpInfMgmtNew',
+            name: 'EmpInfMgmtNew',
+            component: EmpInfMgmtNew,
+            props: true,
+        },
+        {
+            path: '/start/BnfcrInfrmMgmt',
+            name: 'BnfcrInfrmMgmt',
+            component: BnfcrInfrmMgmt,
             props: true,
         },
         {

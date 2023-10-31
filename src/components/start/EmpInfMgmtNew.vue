@@ -59,13 +59,13 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 기본정보 입력 전 문자 발신번호 등록</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 신규 직원 등록하기.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt.png">
+                            src="../../assets/images/EmpInfMgmtNew.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -73,45 +73,9 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 파란색 전화기 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 신규 버튼을 클릭하면 생기는 팝업창입니다.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 신규로 등록하려는 직원에 대한 정보를 모두 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 문자 발신번호 등록 방법</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt4.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 맨 밑 주의사항들을 읽어주십쇼.</div>
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 발신을 할 번호를 입력 후 전화번호 가입증명서를 제출해주세요.</div>
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">③ 문자 발신번호 등록 버튼을 클릭 후 요양시스에 등록 요청 완료해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 문자 발신번호 등록과 모든 기본정보 기입을 한 후 저장버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt5.png">
-                        </v-img>
-                    </v-col>
                 </v-col>
             </v-row>
         </v-col>
@@ -121,7 +85,7 @@
 
 <script>
 export default {
-    name: 'empInfMgmt',
+    name: 'EmpInfMgmtNew',
 
     components: {
        

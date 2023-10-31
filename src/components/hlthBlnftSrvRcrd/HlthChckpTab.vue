@@ -64,8 +64,8 @@
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
+                        <v-img max-height="585" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/HlthChckpTab.png">
                         </v-img>
                     </v-col>
                 </v-col>
