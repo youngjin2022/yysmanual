@@ -818,6 +818,9 @@ export default {
             { slc: '2', expsr: '2', sub: '3. 본인부담금 입금정보', name: 'FacInfoMgmt2', path: '/start/FacInfoMgmt2' },
             { slc: '2', expsr: '2', sub: '4. 생활실정보', name: 'FacInfoMgmt3', path: '/start/FacInfoMgmt3' },
             { slc: '2', expsr: '2', sub: '5. 기본정보(식사)', name: 'FacInfoMgmt4', path: '/start/FacInfoMgmt4' },
+            { slc: '2', expsr: '2', sub: '6. 급여수가정보', name: 'FacInfoMgmt4', path: '/start/blnftAmntInf' },
+            { slc: '2', expsr: '2', sub: '7. 신규 직원', name: 'FacInfoMgmt4', path: '/start/empInfMgmt' },
+            { slc: '2', expsr: '2', sub: '8. 신규 수급자', name: 'FacInfoMgmt4', path: '/start/bnfcrInfrmMgmt' },
         ],
         bnfcrInfrmMgmt: [
             { slc: '2', expsr: '2', sub: '1. 수급자 신규 저장', name: 'BnfcrInfrmMgmtWrt', path: '/bnfcrInfrmMgmt/BnfcrInfrmMgmtWrt' },

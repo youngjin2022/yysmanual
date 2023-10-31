@@ -59,27 +59,13 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 기록이 필요한 수급자를 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/CareBlnftSrvRcrd1.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 기록할곳에 기입 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성자 먼저 저장하기.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/CareBlnftSrvRcrd1(1).png">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CareBlnftSrvRcrd.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -87,23 +73,9 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 작성자를 먼저 저장해주셔야 끊기지 않고 작성이 가능합니다.</div>
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 특이사항 글자 수 30자가 넘어가면 출력때 별지로 작성됩니다.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 기록이 필요한 수급자를 선택해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 기록 내용 기입 후 작성자를 필수로 선택 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 식사종류와 식사량을 함께 저장해주셔야 기록이 되는걸 보실 수 있습니다.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/CareBlnftSrvRcrd1(2).png">
-                        </v-img>
-                    </v-col>
                 </v-col>
             </v-row>
         </v-col>

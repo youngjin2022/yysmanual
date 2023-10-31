@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [HarryFood](https://food.harrygnd.co.kr/).
 
 ## Project setup
@@ -19,3 +20,6 @@ npm run build
 ```
 npm run lint
 ```
+=======
+# yysmanual
+>>>>>>> c811029f9afa67f15fe41002a9d479926f6a4cfa

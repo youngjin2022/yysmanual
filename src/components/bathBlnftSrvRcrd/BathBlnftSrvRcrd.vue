@@ -59,43 +59,68 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 수급자 선택 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 목욕시간 설정하기.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/BathSchdl.png">
+                            src="../../assets/images/BathBlnftSrvRcrd.png">
                         </v-img>
                     </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 10-3 코드관리 페이지로 이동해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 목욕시간을 저장해주세요.</div>
+                    </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 등록할 수급자를 선택해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 목욕일정 저장하기.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/BathSchdl1.png">
+                            src="../../assets/images/BathBlnftSrvRcrd1.png">
                         </v-img>
                     </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 수급자 선택 버튼 클릭 후 목욕할 수급자를 선택해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 목욕시간을 저장해주세요.</div>
+                    </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 목욕 하실 시간을 입력 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 목욕 급여제공기록 저장.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/BathSchdl2.png">
+                            src="../../assets/images/BathBlnftSrvRcrd2.png">
                         </v-img>
                     </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 목욕방법과 작성자를 선택 후 처리에 있는 파란색 저장버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 이후 기록을 작성해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">③ 리스트가 여러개일땐 오른쪽 상단 일괄 선택 후 일괄 저장을 이용하면 편하게 기록이 가능합니다.</div>
+                    </v-card>
                 </v-col>
             </v-row>
         </v-col>

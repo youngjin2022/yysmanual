@@ -53,21 +53,19 @@
                     </span>
                 </v-col> -->
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">생활실정보</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">신규 수급자</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 1 &#41; 건물정보 추가하기.
-                        </div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 기본정보 입력 전 문자 발신번호 등록</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt6.png">
+                            src="../../assets/images/FacInfoMgmt.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -75,22 +73,20 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 생활실정보를 생성하기 위해 건물정보를 먼저 추가해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 파란색 전화기 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 2 &#41; 생활실종류 추가하기.
-                        </div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 문자 발신번호 등록 방법</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt7.png">
+                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FacInfoMgmt4.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -98,31 +94,24 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 생활실정보를 생성하기 위해 생활실종류를 먼저 추가해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 맨 밑 주의사항들을 읽어주십쇼.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 발신을 할 번호를 입력 후 전화번호 가입증명서를 제출해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">③ 문자 발신번호 등록 버튼을 클릭 후 요양시스에 등록 요청 완료해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 3 &#41; 생활실정보 설정하기.
-                        </div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 문자 발신번호 등록과 모든 기본정보 기입을 한 후 저장버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex" cols="12">
+                <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/FacInfoMgmt8.png">
+                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FacInfoMgmt5.png">
                         </v-img>
                     </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 생활실정보를 추가한 후 저장버튼을 클릭해주세요.</div>
-                    </v-card>
                 </v-col>
             </v-row>
         </v-col>
@@ -132,7 +121,7 @@
 
 <script>
 export default {
-    name: 'FacInfoMgmt3',
+    name: 'bnfcrInfrmMgmt',
 
     components: {
        
