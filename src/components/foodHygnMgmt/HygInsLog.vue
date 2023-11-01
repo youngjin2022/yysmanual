@@ -55,13 +55,6 @@
                 <v-col class="mb-12" cols="12">
                     <span class="fontSizeImageTitle font-weight-medium suibTitleDL">위생점검일지</span>
                 </v-col>
-                <v-col class="d-flex justify-center px-2 mb-12" cols="12">
-                    <v-card
-                        class="d-flex justify-center" style="width: 100%;"
-                        elevation="0" rounded="md" outlined>
-                        <div class="mt-2 mb-2 fontSizeFdT font-weight-medium">요양시스 홈페이지 또는 모바일 앱을 통해 손쉽게 회원가입을 진행할 수 있습니다.</div>
-                    </v-card>
-                </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"

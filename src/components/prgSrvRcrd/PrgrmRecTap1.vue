@@ -51,49 +51,21 @@
                     <span class="fontSizeFdT">
                         다양한 고령친화식 메뉴 편성으로, 일반식, 다진식, 갈식(죽식)등 최상의 맞춤형 식단을 제공하겠습니다.
                     </span>
-                </v-col> -->
+                </v-col> -->ㅁ
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">배설관리</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">프로그램 일정등록 상세 프로그램 평가</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성하려는 수급자의 개인현황에 미작성이라고 적힌곳을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 운영일시, 전반적 평가 내용 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 시설 생활 및 건강상태에 대해 내용 입력 후 저장 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus1.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus2.png">
+                            src="../../assets/images/PrgrmRecTap1.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -105,7 +77,7 @@
 
 <script>
 export default {
-    name: 'NsgCareRcrdTab3',
+    name: 'PrgrmRecTap1',
 
     components: {
        
@@ -133,7 +105,7 @@ export default {
     },
         
     methods: {
-      
+
     },
 
     data: () => ({
@@ -141,3 +113,7 @@ export default {
     }),
 };
 </script>
+
+<style>
+    .suibTitleDL { border-left: 8px solid #dbdbdb; display: inline-block; height: 40px; line-height: 36px; padding-left: 20px; }
+</style>

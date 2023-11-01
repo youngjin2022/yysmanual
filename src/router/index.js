@@ -74,10 +74,8 @@ import BnftOfrRec from '../components/nsgCareRcrd/BnftOfrRec.vue'
 import NsgCareRcrdTab2 from '../components/nsgCareRcrd/NsgCareRcrdTab2.vue'
 import NsgCareRcrdTab3 from '../components/nsgCareRcrd/NsgCareRcrdTab3.vue'
 import NsgCareRcrdTab4 from '../components/nsgCareRcrd/NsgCareRcrdTab4.vue'
-import ChgPosObsrvRcrd from '../components/nsgCareRcrd/ChgPosObsrvRcrd.vue'
 
 import PhyscThrpyRcrdDay from '../components/physcThrpyRcrd/PhyscThrpyRcrdDay.vue'
-import PhyscThrpyRcrdWeek from '../components/physcThrpyRcrd/PhyscThrpyRcrdWeek.vue'
 
 import PhyscSnctnRcrd from '../components/physcSnctnRcrd/PhyscSnctnRcrd.vue'
 
@@ -85,7 +83,9 @@ import SpclBdrmUseRcrd from '../components/spclBdrmUseRcrd/SpclBdrmUseRcrd.vue'
 
 import EmrgnRcrd from '../components/emrgnRcrd/EmrgnRcrd.vue'
 
-import PrgSrvRcrd from '../components/prgSrvRcrd/PrgSrvRcrd.vue'    
+import PrgSrvRcrd from '../components/prgSrvRcrd/PrgSrvRcrd.vue'  
+import PrgrmRecTap1 from '../components/prgSrvRcrd/PrgrmRecTap1.vue'
+import PrgrmRecTap2 from '../components/prgSrvRcrd/PrgrmRecTap2.vue'  
 
 import PrgInfrmMgmt from '../components/prgInfrmMgmt/PrgInfrmMgmt.vue'
 
@@ -556,22 +556,11 @@ export const router = new VueRouter({
             component: NsgCareRcrdTab4,
             props: true,
         },
-        {
-            path: '/nsgCareRcrd/ChgPosObsrvRcrd',
-            name: 'ChgPosObsrvRcrd',
-            component: ChgPosObsrvRcrd,
-            props: true,
-        },
+        
         {
             path: '/physcThrpyRcrd/PhyscThrpyRcrdDay',
             name: 'PhyscThrpyRcrdDay',
             component: PhyscThrpyRcrdDay,
-            props: true,
-        },
-        {
-            path: '/physcThrpyRcrd/PhyscThrpyRcrdWeek',
-            name: 'PhyscThrpyRcrdWeek',
-            component: PhyscThrpyRcrdWeek,
             props: true,
         },
         {
@@ -596,6 +585,18 @@ export const router = new VueRouter({
             path: '/prgSrvRcrd/PrgSrvRcrd',
             name: 'PrgSrvRcrd',
             component: PrgSrvRcrd,
+            props: true,
+        },
+        {
+            path: '/prgSrvRcrd/PrgrmRecTap1',
+            name: 'PrgrmRecTap1',
+            component: PrgrmRecTap1,
+            props: true,
+        },
+        {
+            path: '/prgSrvRcrd/PrgrmRecTap2',
+            name: 'PrgrmRecTap2',
+            component: PrgrmRecTap2,
             props: true,
         },
         {

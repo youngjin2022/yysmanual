@@ -55,24 +55,17 @@
                 <v-col class="mb-12" cols="12">
                     <span class="fontSizeImageTitle font-weight-medium suibTitleDL">그룹별 수급자설정</span>
                 </v-col>
-                <v-col class="d-flex justify-center px-2 mb-12" cols="12">
-                    <v-card
-                        class="d-flex justify-center" style="width: 100%;"
-                        elevation="0" rounded="md" outlined>
-                        <div class="mt-2 mb-2 fontSizeFdT font-weight-medium">요양시스 홈페이지 또는 모바일 앱을 통해 손쉽게 회원가입을 진행할 수 있습니다.</div>
-                    </v-card>
-                </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 계정생성 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 파란색 플러스 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="500" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrpBnfcrGrp.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -80,13 +73,13 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 이용약관 필수 항목을 동의한 후 다음 단계로 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 수급자 선택하기.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="500" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp1.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrpBnfcrGrp1.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -94,20 +87,21 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 안내자료 수신동의는 가정통신문, 명세서 등 안내자료를 모바일 또는 이메일 수신에 동의를 구하는 내용입니다.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 선택하실 수급자의 왼쪽 동그라미 체크버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 파란색 선택 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; *표시된 필수 입력란에 모든 정보를 기입 후 등록 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 작성일, 작성자.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp2.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrpBnfcrGrp2.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -115,27 +109,9 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 기관번호는 11자리여야합니다.</div>
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 기관정보와 관리자 정보는 가입 후 6-4. 시설정보관리 페이지에서 수정이 가능합니다.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 작성일, 작성일, 수급자 확인 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 4 &#41; 로그인시 정보 유지하기를 체크하게되면 다음 로그인때 기관번호와 아이디가 그대로 남아 비밀번호만 입력해서 로그인할 수 있기 때문에 편리합니다.
-                        </div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp3.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-               
             </v-row>
         </v-col>
         <v-spacer></v-spacer>

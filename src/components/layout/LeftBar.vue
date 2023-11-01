@@ -900,11 +900,9 @@ export default {
             { slc: '2', expsr: '2', sub: '3. 경관영양', name: 'NsgCareRcrdTab2', path: '/nsgCareRcrd/NsgCareRcrdTab2' },
             { slc: '2', expsr: '2', sub: '4. 배설관리', name: 'NsgCareRcrdTab3', path: '/nsgCareRcrd/NsgCareRcrdTab3' },
             { slc: '2', expsr: '2', sub: '5. 도뇨관관리', name: 'NsgCareRcrdTab4', path: '/nsgCareRcrd/NsgCareRcrdTab4' },
-            { slc: '2', expsr: '2', sub: '5. 체위변경', name: 'ChgPosObsrvRcrd', path: '/nsgCareRcrd/ChgPosObsrvRcrd' },
         ],
         physcThrpyRcrd: [
             { slc: '2', expsr: '2', sub: '1. 일일치료', name: 'PhyscThrpyRcrdDay', path: '/physcThrpyRcrd/PhyscThrpyRcrdDay' },
-            { slc: '2', expsr: '2', sub: '2. 주간치료', name: 'PhyscThrpyRcrdWeek', path: '/physcThrpyRcrd/PhyscThrpyRcrdWeek' },
         ],
         physcSnctnRcrd: [
             { slc: '2', expsr: '2', sub: '1. 신체제재기록', name: 'PhyscSnctnRcrd', path: '/physcSnctnRcrd/PhyscSnctnRcrd' },
@@ -917,6 +915,8 @@ export default {
         ],
         prgSrvRcrd: [
             { slc: '2', expsr: '2', sub: '1. 프로그램 운영기록', name: 'PrgSrvRcrd', path: '/prgSrvRcrd/PrgSrvRcrd' },
+            { slc: '2', expsr: '2', sub: '2. 상세 프로그램', name: 'PrgrmRecTap1', path: '/prgSchdlMgmt/PrgrmRecTap1' },
+            { slc: '2', expsr: '2', sub: '3. 상세 수급자', name: 'PrgrmRecTap2', path: '/prgSchdlMgmt/PrgrmRecTap2' },
         ],
         prgInfrmMgmt: [
             { slc: '2', expsr: '2', sub: '1. 프로그램 정보관리', name: 'PrgInfrmMgmt', path: '/prgInfrmMgmt/PrgInfrmMgmt' },

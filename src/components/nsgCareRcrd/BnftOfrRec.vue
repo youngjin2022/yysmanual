@@ -59,12 +59,12 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성하려는 수급자의 개인현황에 미작성이라고 적힌곳을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 체위변경기록 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                        <v-img max-height="610" alt="pencil" style="border: solid 1px black;"
                             src="../../assets/images/BnftOfrRec.png">
                         </v-img>
                     </v-col>
@@ -73,7 +73,7 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 시설 생활 및 건강상태에 대해 내용 입력 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 담당자 선택 후 기록이 끝나면 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
