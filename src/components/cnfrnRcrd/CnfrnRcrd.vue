@@ -59,13 +59,13 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 분기별 상담이력을 선택해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 운영위원등록 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="591" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/QuarterlyCL.png">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -73,22 +73,85 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 모든 내용을 기입 후 저장버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 모든 내용 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex" cols="12">
+                <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="591" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/QuarterlyCL1.png">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd1.png">
                         </v-img>
                     </v-col>
                 </v-col>
-                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 급여제공반영 설명은 <a @click="routerAction('ConLogRef')">여기</a>를 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 회의작성 버튼을 클릭해주세요.</div>
                     </v-card>
+                </v-col>
+                <v-col class="d-flex mb-12" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd2.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 4 &#41; 모든 내용 기입 후 저장버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex mb-12" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd3.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 5 &#41; 알림톡 발송 버튼 클릭 후 전자서명 요청을 완료해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex mb-12" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd4.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 6 &#41; 전자서명 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex mb-12" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd6.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 7 &#41; 전자서명 할 인원을 클릭 후 전자서명을 완료해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex mb-12" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="620" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/CnfrnRcrd5.png">
+                        </v-img>
+                    </v-col>
                 </v-col>
             </v-row>
         </v-col>
@@ -98,7 +161,7 @@
 
 <script>
 export default {
-    name: 'BnfcrCnslnJrnls',
+    name: 'CnfrnRcrd',
 
     components: {
        
@@ -126,9 +189,7 @@ export default {
     },
         
     methods: {
-        routerAction: function (path){
-            this.$router.push({ name: path, });
-        },
+      
     },
 
     data: () => ({

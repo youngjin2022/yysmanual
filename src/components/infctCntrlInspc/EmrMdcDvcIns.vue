@@ -55,47 +55,27 @@
                 <v-col class="mb-12" cols="12">
                     <span class="fontSizeImageTitle font-weight-medium suibTitleDL">응급의료기기점검</span>
                 </v-col>
+                
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성하려는 수급자의 개인현황에 미작성이라고 적힌곳을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 분기별 응급의료기기점검.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
+                        <v-img max-height="650" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FineDust.png">
                         </v-img>
                     </v-col>
                 </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 시설 생활 및 건강상태에 대해 내용 입력 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 모든 내용 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus1.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus2.png">
-                        </v-img>
-                    </v-col>
                 </v-col>
             </v-row>
         </v-col>

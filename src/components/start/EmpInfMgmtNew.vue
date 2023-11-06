@@ -77,6 +77,77 @@
                         <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 신규로 등록하려는 직원에 대한 정보를 모두 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 조편성하기.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/EmpInfMgmtNew1.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 함께 근무하는 인원들로 조를 편성해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 조편성은 STEP 3 처럼 일정등록에서 편의를 위해 쓰입니다.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 조별 일정등록 방법.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/EmpInfMgmtNew2.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 조를 선택해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/EmpInfMgmtNew3.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 해당 조가 근무할 패턴을 설정한 후 반영 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex" cols="12">
+                    <v-col cols="10" style="position: relative;">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/EmpInfMgmtNew4.png">
+                        </v-img>
+                    </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">③ 본 화면과 같이 설정한 패턴대로 달력에 표시되면 저장 버튼을 클릭해주세요 .</div>
+                    </v-card>
+                </v-col>
             </v-row>
         </v-col>
         <v-spacer></v-spacer>

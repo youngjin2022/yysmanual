@@ -59,43 +59,22 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성하려는 수급자의 개인현황에 미작성이라고 적힌곳을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 기관 급여수가정보 저장</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
                         <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
+                            src="../../assets/images/BlnftAmntInfNew.png">
                         </v-img>
                     </v-col>
                 </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 시설 생활 및 건강상태에 대해 내용 입력 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 비급여 수가정보를 모두 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus1.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus2.png">
-                        </v-img>
-                    </v-col>
                 </v-col>
             </v-row>
         </v-col>
@@ -133,7 +112,7 @@ export default {
     },
         
     methods: {
-      
+
     },
 
     data: () => ({
@@ -141,3 +120,7 @@ export default {
     }),
 };
 </script>
+
+<style>
+    .suibTitleDL { border-left: 8px solid #dbdbdb; display: inline-block; height: 40px; line-height: 36px; padding-left: 20px; }
+</style>

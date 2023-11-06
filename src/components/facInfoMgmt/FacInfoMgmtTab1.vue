@@ -59,41 +59,57 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 작성하려는 수급자의 개인현황에 미작성이라고 적힌곳을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 기본정보 입력 전 문자 발신번호 등록</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus.png">
+                        <v-img max-height="580" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FacInfoMgmt.png">
                         </v-img>
                     </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 파란색 전화기 버튼을 클릭해주세요.</div>
+                    </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 시설 생활 및 건강상태에 대해 내용 입력 후 저장 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 문자 발신번호 등록 방법</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus1.png">
+                        <v-img max-height="560" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FacInfoMgmt4.png">
                         </v-img>
                     </v-col>
+                </v-col>
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 맨 밑 주의사항들을 읽어주십쇼.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 발신을 할 번호를 입력 후 전화번호 가입증명서를 제출해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">③ 문자 발신번호 등록 버튼을 클릭 후 요양시스에 등록 요청 완료해주세요.</div>
+                    </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 문자 발신번호 등록과 모든 기본정보 기입을 한 후 저장버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/PsnStatus2.png">
+                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/FacInfoMgmt5.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -133,7 +149,7 @@ export default {
     },
         
     methods: {
-      
+
     },
 
     data: () => ({
@@ -141,3 +157,7 @@ export default {
     }),
 };
 </script>
+
+<style>
+    .suibTitleDL { border-left: 8px solid #dbdbdb; display: inline-block; height: 40px; line-height: 36px; padding-left: 20px; }
+</style>

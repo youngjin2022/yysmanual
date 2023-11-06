@@ -105,7 +105,7 @@
 
 <script>
 export default {
-    name: 'edctnJrnlInfrm',
+    name: 'EdctnJrnlInfrm',
 
     components: {
        

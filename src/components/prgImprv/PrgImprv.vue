@@ -59,7 +59,7 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 계정생성 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 1 &#41; 의견수렴작성 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex mb-12" cols="12">
@@ -73,13 +73,13 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 이용약관 필수 항목을 동의한 후 다음 단계로 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 2 &#41; 의견 수렴 내용 저장.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="500" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp1.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrgImprv1.png">
                         </v-img>
                     </v-col>
                 </v-col>
@@ -87,48 +87,46 @@
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 안내자료 수신동의는 가정통신문, 명세서 등 안내자료를 모바일 또는 이메일 수신에 동의를 구하는 내용입니다.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 작성분기와 지표구분, 작성자, 수급자(보호자) 의견 수렴 내용 기입 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; *표시된 필수 입력란에 모든 정보를 기입 후 등록 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 해당 분기의 의견수렴 결과반영을 위해 상세보기를 클릭해주세요.</div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex" cols="12">
+                <v-col class="d-flex mb-12" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp2.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrgImprv2.png">
                         </v-img>
                     </v-col>
-                </v-col>
-                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 기관번호는 11자리여야합니다.</div>
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">② 기관정보와 관리자 정보는 가입 후 6-4. 시설정보관리 페이지에서 수정이 가능합니다.</div>
-                    </v-card>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
                         class="" style="width: 100%;"
                         elevation="0" rounded="md">
                         <div class="mt-2 mb-2 fontSizeOne font-weight-medium">
-                            STEP 4 &#41; 로그인시 정보 유지하기를 체크하게되면 다음 로그인때 기관번호와 아이디가 그대로 남아 비밀번호만 입력해서 로그인할 수 있기 때문에 편리합니다.
+                            STEP 4 &#41; 의견수렴 결과반영.
                         </div>
                     </v-card>
                 </v-col>
-                <v-col class="d-flex mb-12" cols="12">
+                <v-col class="d-flex" cols="12">
                     <v-col cols="10" style="position: relative;">
-                        <v-img max-height="550" alt="pencil" style="border: solid 1px black;"
-                            src="../../assets/images/signUp3.png">
+                        <v-img max-height="600" alt="pencil" style="border: solid 1px black;"
+                            src="../../assets/images/PrgImprv3.png">
                         </v-img>
                     </v-col>
                 </v-col>
-               
+                <v-col class="d-flex justify-center px-3 mb-12" cols="12">
+                    <v-card
+                        class="" style="width: 100%;"
+                        elevation="0" rounded="md">
+                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">① 작성자, 의견수렴 결과반영을 기입 후 저장 버튼을 클릭하게되면 반영여부가 바뀝니다.</div>
+                    </v-card>
+                </v-col>
             </v-row>
         </v-col>
         <v-spacer></v-spacer>

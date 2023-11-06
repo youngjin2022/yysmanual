@@ -11,6 +11,8 @@ import FacInfoMgmt2 from '../components/start/FacInfoMgmt2.vue'
 import FacInfoMgmt3 from '../components/start/FacInfoMgmt3.vue'
 import FacInfoMgmt4 from '../components/start/FacInfoMgmt4.vue'
 import BlnftAmntInfNew from '../components/start/BlnftAmntInfNew.vue'
+import CmmAuthMgmtStart from '../components/start/CmmAuthMgmtStart.vue'
+import CmmCdMgmtStart from '../components/start/CmmCdMgmtStart.vue'
 import EmpInfMgmtNew from '../components/start/EmpInfMgmtNew.vue'
 import BnfcrInfrmMgmt from '../components/start/BnfcrInfrmMgmt.vue'
 
@@ -144,10 +146,10 @@ import SchdlMgmt from '../components/wrkngSchdl/SchdlMgmt.vue'
 import WrkSttEmp from '../components/wrkngJrnl/WrkSttEmp.vue'
 import WrkSttDay from '../components/wrkngJrnl/WrkSttDay.vue'
 
-import edctnJrnlEmpRprt from '../components/edctnJrnl/edctnJrnlEmpRprt.vue'
-import edctnJrnlSilvCareRprt from '../components/edctnJrnl/edctnJrnlSilvCareRprt.vue'
-import edctnJrnlDssRes from '../components/edctnJrnl/edctnJrnlDssRes.vue'
-import edctnJrnlInfrm from '../components/edctnJrnl/edctnJrnlInfrm.vue'
+import EdctnJrnlEmpRprt from '../components/edctnJrnl/EdctnJrnlEmpRprt.vue'
+import EdctnJrnlSilvCareRprt from '../components/edctnJrnl/EdctnJrnlSilvCareRprt.vue'
+import EdctnJrnlDssRes from '../components/edctnJrnl/EdctnJrnlDssRes.vue'
+import EdctnJrnlInfrm from '../components/edctnJrnl/EdctnJrnlInfrm.vue'
 
 import WrkSMntlWrkshttEmp from '../components/otsdExprtMgmt/WrkSMntlWrkshttEmp.vue'
 import PrdWorkJrnl from '../components/otsdExprtMgmt/PrdWorkJrnl.vue'
@@ -161,6 +163,8 @@ import EmpWageStmtMgmt from '../components/empWageStmtMgmt/EmpWageStmtMgmt.vue'
 import FcltylWgeMgmt from '../components/fcltylWgeMgmt/FcltylWgeMgmt.vue'
 
 import EmpWageInfMgmt from '../components/empWageInfMgmt/EmpWageInfMgmt.vue'
+import EmpWageInfMgmt1 from '../components/empWageInfMgmt/EmpWageInfMgmt1.vue'
+import EmpWageInfMgmt2 from '../components/empWageInfMgmt/EmpWageInfMgmt2.vue'
 
 import CareBlnftAddMgmt from '../components/careBlnftAddMgmt/CareBlnftAddMgmt.vue'
 
@@ -184,6 +188,9 @@ import NsgRcrdSttsTab3 from '../components/nsgRcrdStts/NsgRcrdSttsTab3.vue'
 import PrgBnfcrPrtcpStts from '../components/prgBnfcrPrtcpStts/PrgBnfcrPrtcpStts.vue'
 
 import FcsftOprtnJrnl from '../components/fcsftOprtnJrnl/FcsftOprtnJrnl.vue'
+
+import PhyscRecTab1 from '../components/physcRec/PhyscRecTab1.vue'
+import PhyscRecTab2 from '../components/physcRec/PhyscRecTab2.vue'
 
 import SmsSndWrt from '../components/smsSndMgmt/SmsSndWrt.vue'
 import SmsSndHist from '../components/smsSndMgmt/SmsSndHist.vue'
@@ -284,6 +291,18 @@ export const router = new VueRouter({
             path: '/start/BlnftAmntInfNew',
             name: 'BlnftAmntInfNew',
             component: BlnftAmntInfNew,
+            props: true,
+        },
+        {
+            path: '/start/CmmAuthMgmtStart',
+            name: 'CmmAuthMgmtStart',
+            component: CmmAuthMgmtStart,
+            props: true,
+        },
+        {
+            path: '/start/CmmCdMgmtStart',
+            name: 'CmmCdMgmtStart',
+            component: CmmCdMgmtStart,
             props: true,
         },
         {
@@ -834,27 +853,27 @@ export const router = new VueRouter({
             props: true,
         },
         {
-            path: '/edctnJrnl/edctnJrnlEmpRprt',
-            name: 'edctnJrnlEmpRprt',
-            component: edctnJrnlEmpRprt,
+            path: '/edctnJrnl/EdctnJrnlEmpRprt',
+            name: 'EdctnJrnlEmpRprt',
+            component: EdctnJrnlEmpRprt,
             props: true,
         },
         {
-            path: '/edctnJrnl/edctnJrnlSilvCareRprt',
-            name: 'edctnJrnlSilvCareRprt',
-            component: edctnJrnlSilvCareRprt,
+            path: '/edctnJrnl/EdctnJrnlSilvCareRprt',
+            name: 'EdctnJrnlSilvCareRprt',
+            component: EdctnJrnlSilvCareRprt,
             props: true,
         },
         {
-            path: '/edctnJrnl/edctnJrnlDssRes',
-            name: 'edctnJrnlDssRes',
-            component: edctnJrnlDssRes,
+            path: '/edctnJrnl/EdctnJrnlDssRes',
+            name: 'EdctnJrnlDssRes',
+            component: EdctnJrnlDssRes,
             props: true,
         },
         {
-            path: '/edctnJrnl/edctnJrnlInfrm',
-            name: 'edctnJrnlInfrm',
-            component: edctnJrnlInfrm,
+            path: '/edctnJrnl/EdctnJrnlInfrm',
+            name: 'EdctnJrnlInfrm',
+            component: EdctnJrnlInfrm,
             props: true,
         },
         {
@@ -897,6 +916,18 @@ export const router = new VueRouter({
             path: '/empWageInfMgmt/EmpWageInfMgmt',
             name: 'EmpWageInfMgmt',
             component: EmpWageInfMgmt,
+            props: true,
+        },
+        {
+            path: '/empWageInfMgmt/EmpWageInfMgmt1',
+            name: 'EmpWageInfMgmt1',
+            component: EmpWageInfMgmt1,
+            props: true,
+        },
+        {
+            path: '/empWageInfMgmt/EmpWageInfMgmt2',
+            name: 'EmpWageInfMgmt2',
+            component: EmpWageInfMgmt2,
             props: true,
         },
         {
@@ -981,6 +1012,18 @@ export const router = new VueRouter({
             path: '/fcsftOprtnJrnl/FcsftOprtnJrnl',
             name: 'FcsftOprtnJrnl',
             component: FcsftOprtnJrnl,
+            props: true,
+        },
+        {
+            path: '/physcRec/PhyscRecTab1',
+            name: 'PhyscRecTab1',
+            component: PhyscRecTab1,
+            props: true,
+        },
+        {
+            path: '/physcRec/PhyscRecTab2',
+            name: 'PhyscRecTab2',
+            component: PhyscRecTab2,
             props: true,
         },
         {

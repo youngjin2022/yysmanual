@@ -406,7 +406,7 @@
                             <v-list-item-title> {{ title.sub }}</v-list-item-title>
                         </v-list-item>
                     </v-list-group>
-                    <v-list-group no-action sub-group >
+                    <!-- <v-list-group no-action sub-group >
                         <template v-slot:activator>
                             <v-list-item-content>
                                 <v-list-item-title>{{ subTitle[37].subTitle }}</v-list-item-title>
@@ -415,7 +415,7 @@
                         <v-list-item v-for="(title, i) in lvnRmStts" :key="i" link @click="routerAction(title.name)"> 
                             <v-list-item-title> {{ title.sub }}</v-list-item-title>
                         </v-list-item>
-                    </v-list-group>
+                    </v-list-group> -->
                     <v-list-group no-action sub-group >
                         <template v-slot:activator>
                             <v-list-item-content>
@@ -651,16 +651,16 @@
                             <v-list-item-title> {{ title.sub }}</v-list-item-title>
                         </v-list-item>
                     </v-list-group>
-                    <!-- <v-list-group no-action sub-group >
+                    <v-list-group no-action sub-group >
                         <template v-slot:activator>
                             <v-list-item-content>
                                 <v-list-item-title>{{ subTitle[60].subTitle }}</v-list-item-title>
                             </v-list-item-content>
                         </template>
-                        <v-list-item v-for="(title, i) in fcsftOprtnJrnl" :key="i" link @click="routerAction(title.name)"> 
+                        <v-list-item v-for="(title, i) in PhyscRec" :key="i" link @click="routerAction(title.name)"> 
                             <v-list-item-title> {{ title.sub }}</v-list-item-title>
                         </v-list-item>
-                    </v-list-group> -->
+                    </v-list-group>
                 </v-list-group>
                 <v-list-group :value="false">
                     <template v-slot:activator>
@@ -819,8 +819,10 @@ export default {
             { slc: '2', expsr: '2', sub: '4. 생활실정보', name: 'FacInfoMgmt3', path: '/start/FacInfoMgmt3' },
             { slc: '2', expsr: '2', sub: '5. 기본정보(식사)', name: 'FacInfoMgmt4', path: '/start/FacInfoMgmt4' },
             { slc: '2', expsr: '2', sub: '6. 급여수가정보', name: 'BlnftAmntInfNew', path: '/start/BlnftAmntInfNew' },
-            { slc: '2', expsr: '2', sub: '7. 신규 직원', name: 'EmpInfMgmtNew', path: '/start/EmpInfMgmtNew' },
-            { slc: '2', expsr: '2', sub: '8. 신규 수급자', name: 'BnfcrInfrmMgmt', path: '/start/BnfcrInfrmMgmt' },
+            { slc: '2', expsr: '2', sub: '7. 권한관리', name: 'CmmAuthMgmtStart', path: '/start/CmmAuthMgmtStart' },
+            { slc: '2', expsr: '2', sub: '8. 코드관리', name: 'CmmCdMgmtStart', path: '/start/CmmCdMgmtStart' },
+            { slc: '2', expsr: '2', sub: '9. 신규 직원', name: 'EmpInfMgmtNew', path: '/start/EmpInfMgmtNew' },
+            { slc: '2', expsr: '2', sub: '10. 신규 수급자', name: 'BnfcrInfrmMgmt', path: '/start/BnfcrInfrmMgmt' },
         ],
         bnfcrInfrmMgmt: [
             { slc: '2', expsr: '2', sub: '1. 수급자 신규 저장', name: 'BnfcrInfrmMgmtWrt', path: '/bnfcrInfrmMgmt/BnfcrInfrmMgmtWrt' },
@@ -964,12 +966,12 @@ export default {
         cnfrnRcrd: [
             { slc: '2', expsr: '2', sub: '1. 회의기록', name: 'CnfrnRcrd', path: '/cnfrnRcrd/CnfrnRcrd' },
         ],
-        lvnRmStts: [
-            { slc: '2', expsr: '2', sub: '1. 생활실 현황', name: 'LvnRmStts', path: '/lvnRmStts/LvnRmStts' },
-        ],
+        // lvnRmStts: [
+        //     { slc: '2', expsr: '2', sub: '1. 생활실 현황', name: 'LvnRmStts', path: '/lvnRmStts/LvnRmStts' },
+        // ],
         anlWrkPln: [
             { slc: '2', expsr: '2', sub: '1. 월간계획', name: 'MnthlPlan', path: '/anlWrkPln/MnthlPlan' },
-            { slc: '2', expsr: '2', sub: '2. 연간계획', name: 'AnualPlan', path: '/anlWrkPln/AnualPlan' },
+            // { slc: '2', expsr: '2', sub: '2. 연간계획', name: 'AnualPlan', path: '/anlWrkPln/AnualPlan' },
         ],
         facInfoMgmt: [
             { slc: '2', expsr: '2', sub: '1. 기관 기본정보', name: 'FacInfoMgmtTab1', path: '/facInfoMgmt/FacInfoMgmtTab1' },
@@ -982,9 +984,7 @@ export default {
         ],
         empInfMgmt: [
             { slc: '2', expsr: '2', sub: '1. 직원정보관리', name: 'EmpInfMgmt', path: '/empInfMgmt/EmpInfMgmt' },
-            { slc: '2', expsr: '2', sub: '2. 근무정보', name: 'EmpWorkInfo', path: '/empInfMgmt/EmpWorkInfo' },
-            { slc: '2', expsr: '2', sub: '3. 기타정보', name: 'EmpCrtfInfo', path: '/empInfMgmt/EmpCrtfInfo' },
-            { slc: '2', expsr: '2', sub: '4. 서류관리', name: 'EmpDocMgmt', path: '/empInfMgmt/EmpDocMgmt' },
+            { slc: '2', expsr: '2', sub: '2. 서류관리', name: 'EmpDocMgmt', path: '/empInfMgmt/EmpDocMgmt' },
         ],
         wrkngSchdl: [
             { slc: '2', expsr: '2', sub: '1. 근무일정', name: 'EmpWrkngSchdl', path: '/wrkngSchdl/EmpWrkngSchdl' },
@@ -995,10 +995,10 @@ export default {
             { slc: '2', expsr: '2', sub: '2. 일별 근무현황', name: 'WrkSttDay', path: '/wrkngJrnl/WrkSttDay' },
         ],
         edctnJrnl: [
-            { slc: '2', expsr: '2', sub: '1. 직원교육', name: 'edctnJrnlEmpRprt', path: '/edctnJrnl/edctnJrnlEmpRprt' },    
-            { slc: '2', expsr: '2', sub: '2. 노인인권 및 학대 예방교육', name: 'edctnJrnlSilvCareRprt', path: '/edctnJrnl/edctnJrnlSilvCareRprt' },
-            { slc: '2', expsr: '2', sub: '3. 재난상황대응훈련', name: 'edctnJrnlDssRes', path: '/edctnJrnl/edctnJrnlDssRes' },
-            { slc: '2', expsr: '2', sub: '4. 교육정보', name: 'edctnJrnlInfrm', path: '/edctnJrnl/edctnJrnlInfrm' },
+            { slc: '2', expsr: '2', sub: '1. 직원교육', name: 'EdctnJrnlEmpRprt', path: '/edctnJrnl/EdctnJrnlEmpRprt' },    
+            { slc: '2', expsr: '2', sub: '2. 노인인권 및 학대 예방교육', name: 'EdctnJrnlSilvCareRprt', path: '/edctnJrnl/EdctnJrnlSilvCareRprt' },
+            { slc: '2', expsr: '2', sub: '3. 재난상황대응훈련', name: 'EdctnJrnlDssRes', path: '/edctnJrnl/EdctnJrnlDssRes' },
+            { slc: '2', expsr: '2', sub: '4. 교육정보', name: 'EdctnJrnlInfrm', path: '/edctnJrnl/EdctnJrnlInfrm' },
         ],
         otsdExprtMgmt: [
             { slc: '2', expsr: '2', sub: '1. 월별 근무표', name: 'WrkSMntlWrkshttEmp', path: '/otsdExprtMgmt/WrkSMntlWrkshttEmp' },
@@ -1017,7 +1017,9 @@ export default {
             { slc: '2', expsr: '2', sub: '1. 기관 부담금 관리', name: 'FcltylWgeMgmt', path: '/fcltylWgeMgmt/FcltylWgeMgmt' },
         ],
         empWageInfMgmt: [
-            { slc: '2', expsr: '2', sub: '1. 직원 임금정보 관리', name: 'EmpWageInfMgmt', path: '/empWageInfMgmt/EmpWageInfMgmt' },
+            { slc: '2', expsr: '2', sub: '1. 직원 임금정보', name: 'EmpWageInfMgmt', path: '/empWageInfMgmt/EmpWageInfMgmt' },
+            { slc: '2', expsr: '2', sub: '2. 임금기본정보', name: 'EmpWageInfMgmt1', path: '/empWageInfMgmt/EmpWageInfMgmt1' },
+            { slc: '2', expsr: '2', sub: '3. 기관임금정보', name: 'EmpWageInfMgmt2', path: '/empWageInfMgmt/EmpWageInfMgmt2' },
         ],
         careBlnftAddMgmt: [
             { slc: '2', expsr: '2', sub: '1. 요양급여가산관리', name: 'CareBlnftAddMgmt', path: '/careBlnftAddMgmt/CareBlnftAddMgmt' },
@@ -1050,6 +1052,10 @@ export default {
         ],
         fcsftOprtnJrnl: [
             { slc: '2', expsr: '2', sub: '1. 시설운영일지', name: 'FcsftOprtnJrnl', path: '/fcsftOprtnJrnl/FcsftOprtnJrnl' },
+        ],
+        PhyscRec: [
+            { slc: '2', expsr: '2', sub: '1. 수급자별', name: 'PhyscRecTab1', path: '/PhyscRec/PhyscRecTab1' },
+            { slc: '2', expsr: '2', sub: '2. 일자별', name: 'PhyscRecTab2', path: '/PhyscRec/PhyscRecTab2' },
         ],
         smsSndMgmt: [
             { slc: '2', expsr: '2', sub: '1. 문자전송', name: 'SmsSndWrt', path: '/smsSndMgmt/SmsSndWrt' },
