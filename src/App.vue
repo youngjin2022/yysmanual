@@ -1,15 +1,18 @@
 <template>
     <v-app>
         <!-- Header -->
-        <TopHeader v-if="!this.$vuetify.breakpoint.mobile"></TopHeader>
+        <TopHeader v-if="!this.$vuetify.breakpoint.mobile" @topHeader="topHeader"></TopHeader>
         <MobileHeader v-else></MobileHeader>
         <MobileDrawer></MobileDrawer>
         <!-- main -->
-        <v-main v-scroll="checkBottom">
+        <v-main v-scroll="checkBottom" style="width: 90%; position: absolute; right: 0px;" v-if="!this.$vuetify.breakpoint.mobile" @topHeader="topHeader">
+            <router-view :key="$route.fullPath"></router-view>
+        </v-main>
+        <v-main v-scroll="checkBottom" v-else>
             <router-view :key="$route.fullPath"></router-view>
         </v-main>
         <!-- LeftBar -->
-        <LeftBar class="overflow-y-auto" ></LeftBar>
+        <LeftBar class="overflow-y-auto" v-if="!this.$vuetify.breakpoint.mobile" v-show="show"></LeftBar>
         <!-- footer -->
         <!-- <BottomFooter v-if="!this.$vuetify.breakpoint.mobile"></BottomFooter> -->
         <!-- <MobileFooter v-else></MobileFooter></MobileFooter> -->
@@ -115,9 +118,13 @@ export default {
                     this.onFooter = false
             }
         },
+        topHeader: function(key){
+            this.show = key
+        },
     },
 
     data: () => ({
+        show: true,
         url: 'https://api.harrygnd.co.kr',
         boardList: null,
         drawer: false,

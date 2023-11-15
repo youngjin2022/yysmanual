@@ -8,24 +8,24 @@
                 </v-img>
                 <div class="d-inline-block imgOnTxtBox" style="width: 330px; top: 44%; right: 50%; transform: translate(50%, -50%);" :style="trnStyle">
                     <div class="fontSizeImageTitle white--text font-weight-light mb-7">
-                        <span class="fontNotoSans pb-3" style="border-bottom: 1px solid white;">ICMSN.</span>
+                        <span class="fontNotoSans pb-3" style="border-bottom: 1px solid white;">YoyangSYS</span>
                     </div>
                     <div class="d-inline-block fontSizeImageTitle2 fontDoHyeon white--text" style="height: 38px;">
-                        "Integrated"는 "통합"을
+                        심플하고 세련된
                     </div>
                     <div class="d-inline-block fontSizeImageTitle2 fontDoHyeon white--text" style="height: 38px;">
-                        "Care Management"는 "사례관리"
+                        시스템을 경험시켜드립니다.
                     </div>
                     <div class="white--text fontSizeOne mt-5" style="position: relative;">
-                        "Solution"은 "솔루션"을 의미
+                        혁신적인 관리 시스템 요양시스
                         <v-icon class="white--text" size="100"
                             style="position: absolute; top: 60px; right: -10px;">mdi-format-quote-close</v-icon>
                     </div>
                     <div class="white--text fontSizeOne" style="">
-                        따라서 ICMSN은 "요양시설을 위한 통합 사례관리 솔루션"
+                        모든 기록을 클릭 한번으로
                     </div>
                     <div class="white--text fontSizeOne" style="">
-                        믿고 맡기세요.
+                        편리함을 제공합니다.
                     </div>
                 </div>
             </v-col>
@@ -64,23 +64,22 @@
         <div v-if="this.$vuetify.breakpoint.mobile" style="padding: 80px 0px;">
             <v-row class="ma-0 px-4" no-gutters>
                 <v-col class="" cols="12">
-                    <v-img src="../assets/images/fresh.jpg" alt="freshfood"></v-img>
+                    <!-- <v-img src="../assets/images/fresh.jpg" alt="freshfood"></v-img> -->
                 </v-col>
                 <v-col class="" cols="12">
                     <div class="mt-8">
                         <div class="">
                             <span class="fontNotoSans fontSizeFdS pb-3"
-                                style="border-bottom: 1px solid #3e3838;">Fresh.</span>
+                                style="border-bottom: 1px solid #3e3838;">Simple.</span>
                         </div>
                         <div class="fontSizeOne pointColr--text mt-6">
-                            몸과 마음을 깨끗하게 정화해 주는 신선한 식재료를 엄선하여 고객의 신뢰를 이어갑니다.
+                            심플하고 세련된 디자인과 최소화된 버튼들의 기능으로 몸과 마음에 편안함을 드립니다.
                         </div>
                     </div>
                 </v-col>
             </v-row>
-            <v-row class="ma-0 px-4 pt-12" no-gutters>
+            <!-- <v-row class="ma-0 px-4 pt-12" no-gutters>
                 <v-col class="" cols="12">
-                    <v-img src="../assets/images/korean_food2.jpg" alt="koreanfood"></v-img>
                 </v-col>
                 <v-col class="" cols="12">
                     <div class="mt-8">
@@ -96,20 +95,19 @@
             </v-row>
             <v-row class="ma-0 px-4 pt-12" no-gutters>
                 <v-col class="" cols="12">
-                    <v-img src="../assets/images/healthy.jpg" alt="healthyfood"></v-img>
                 </v-col>
                 <v-col class="" cols="12">
                     <div class="mt-8">
                         <div class="">
                             <span class="fontNotoSans fontSizeFdS pb-3"
-                                style="border-bottom: 1px solid #3e3838;">Healthy.</span>
+                                style="border-bottom: 1px solid #3e3838;">Healthy.</span>   
                         </div>
                         <div class="fontSizeOne pointColr--text mt-6">
                             고객의 건강을 위해 필수 영양소와 칼로리를 고려한 균형잡힌 식단을 제공합니다.
                         </div>
                     </div>
                 </v-col>
-            </v-row>
+            </v-row> -->
         </div>
         <div v-else style="padding: 120px 20px;">
             <v-row class="ma-0 pa-0" no-gutters>

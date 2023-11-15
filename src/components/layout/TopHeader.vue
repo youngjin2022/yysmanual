@@ -4,11 +4,12 @@
         app>
       
         <v-row class="ma-0 pa-0" no-gutters>
-            <v-spacer></v-spacer>
             <v-col class="d-flex" cols="10">
                 <span class="d-inline-block" @click="$parent.$parent.routerAction('App')" style="width: 200px; cursor: pointer;">
                     <v-img src="../../assets/logo.png" alt="harryfoodlogo"></v-img>
                 </span>
+                <v-icon @click="onLeftBar(key)" style="width: 110px; cursor: pointer;" large v-if="key == true">mdi-menu-up</v-icon>
+                <v-icon @click="onLeftBar(key)" style="width: 110px; cursor: pointer;" large v-else>mdi-menu-down</v-icon>
                 <v-spacer></v-spacer>
                 <!-- <span class="d-flex align-center">
                     <span class="d-inline-block font-weight-bold fontSizeFdT"
@@ -107,6 +108,14 @@ export default {
     },
         
     methods: {
+        onLeftBar: function (key) {
+            if (key == true) {
+                this.key = false
+            }else {
+                this.key = true
+            }
+            this.$emit('topHeader', this.key)
+        },
         onOverEvent: function (index) {
             for (let index = 0; index < this.menuHover.length; index++) {
                 this.menuHover.splice(index, 1, false)
@@ -119,7 +128,9 @@ export default {
     },
 
     data: () => ({
+        key: true,
         exHeader: false,
+        leftBar: false,
         menuHover: [false, false, false, false, false,],
         headerMenu: [
             { menu: '푸드서비스', route: '' },

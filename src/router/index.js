@@ -47,6 +47,10 @@ import AllBnftSrvPrcs from '../components/allBnftSrvPrcs/AllBnftSrvPrcs.vue'
 
 import BnftSrvMgmt from '../components/bnftSrvMgmt/BnftSrvMgmt.vue'
 
+import PhyscThrpyInspcPln from '../components/physcThrpyInspcPln/PhyscThrpyInspcPln.vue'
+import PhyscThrpyInspcPlnTab1 from '../components/physcThrpyInspcPln/PhyscThrpyInspcPlnTab1.vue'
+import PhyscThrpyInspcPlnTab2 from '../components/physcThrpyInspcPln/PhyscThrpyInspcPlnTab2.vue'
+
 import WeekMenu from '../components/weekMenu/WeekMenu.vue'
 import FoodInfo from '../components/weekMenu/FoodInfo.vue'
 
@@ -447,6 +451,24 @@ export const router = new VueRouter({
             path: '/bnftSrvMgmt/BnftSrvMgmt',
             name: 'BnftSrvMgmt',
             component: BnftSrvMgmt,
+            props: true,
+        },
+        {
+            path: '/physcThrpyInspcPln/PhyscThrpyInspcPln',
+            name: 'PhyscThrpyInspcPln',
+            component: PhyscThrpyInspcPln,
+            props: true,
+        },
+        {
+            path: '/physcThrpyInspcPln/PhyscThrpyInspcPlnTab1',
+            name: 'PhyscThrpyInspcPlnTab1',
+            component: PhyscThrpyInspcPlnTab1,
+            props: true,
+        },
+        {
+            path: '/physcThrpyInspcPln/PhyscThrpyInspcPlnTab2',
+            name: 'PhyscThrpyInspcPlnTab2',
+            component: PhyscThrpyInspcPlnTab2,
             props: true,
         },
         {
