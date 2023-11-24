@@ -4,22 +4,66 @@
         <v-col class="" style="padding: 60px 0px;" :cols="this.$vuetify.breakpoint.mobile ? 10 : 8">
             <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">코드관리</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">식이정보</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-2 pb-14" cols="12">
-                    <v-card style="margin-bottom: 260px !important;"
+                    <v-card 
                         class=""
                         elevation="0" rounded="md" outlined>
-                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 코드관리 방법.</div>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 작성방법.</div>
                         <v-divider class="mx-4"></v-divider>
                         <div class="mt-4 mb-5 mx-4 fontSizeOne">
                             <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                                src="../../assets/images/CmmAuthMgmtStart.png">
+                                src="../../assets/images/FoodInfo.png">
                             </v-img>
                         </div>
                         <v-divider class="mx-4"></v-divider>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 추가가 필요한 항목 선택 후 개별 저장 및 삭제.</div>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 공통 코드들은 수정 및 삭제가 불가능합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 시간대를 선택하면 수급자 선택 버튼이 활성화됩니다.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card 
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 2 &#41; 작성방법1.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/FoodInfo1.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 수급자 선택 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card 
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 3 &#41; 작성방법2.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/FoodInfo2.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 시간대에 해당되는 수급자를 선택해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card 
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 4 &#41; 작성방법3.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/FoodInfo3.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 시간대 작성과 수급자 선택이 됐으면 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
             </v-row>
@@ -100,7 +144,7 @@
 
 <script>
 export default {
-    name: 'WeekMenu',
+    name: 'FoodInfo',
 
     components: {
        

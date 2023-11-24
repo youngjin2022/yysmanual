@@ -2,7 +2,7 @@
     <v-container class="pa-0" fluid>
         <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
             <v-col cols="12" style="position: relative;">
-                <v-img width="100%" height="500" alt="foodService"
+                <v-img width="100%" height="533" alt="foodService"
                     gradient="45deg, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 0.6) 100%"
                     src="../assets/images/vegetable.jpg">
                 </v-img>

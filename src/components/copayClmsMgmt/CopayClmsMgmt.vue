@@ -4,34 +4,87 @@
         <v-col class="" style="padding: 60px 0px;" :cols="this.$vuetify.breakpoint.mobile ? 10 : 8">
             <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">코드관리</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">본인부담금 청구관리</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-2 pb-14" cols="12">
-                    <v-card style="margin-bottom: 260px !important;"
+                    <v-card  
                         class=""
                         elevation="0" rounded="md" outlined>
-                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 코드관리 방법.</div>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 본인부담금 청구방법.</div>
                         <v-divider class="mx-4"></v-divider>
                         <div class="mt-4 mb-5 mx-4 fontSizeOne">
                             <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                                src="../../assets/images/CmmAuthMgmtStart.png">
+                                src="../../assets/images/SelfPay.png">
                             </v-img>
                         </div>
                         <v-divider class="mx-4"></v-divider>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 추가가 필요한 항목 선택 후 개별 저장 및 삭제.</div>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 공통 코드들은 수정 및 삭제가 불가능합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 기타비용 입력 필요시 상단 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card  
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 2 &#41; 본인부담금 청구방법1.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/SelfPay1.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 왼쪽 수급자 리스트중 해당 수급자를 선택 후 입력 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card  
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 3 &#41; 본인부담금 청구방법2.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/SelfPay2.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 모든 내용 기입 후 저장 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card  
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 4 &#41; 본인부담금 청구방법3.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/SelfPay3.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 급여청구 생성할 수급자 선택 후 상단 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card  
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 5 &#41; 본인부담금 청구방법4.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/SelfPay4.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 상단 옆 급여청구 확정취소 버튼 클릭시 확정여부가 회색으로 바뀝니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 급여청구 삭제시 급여청구 확정취소가 필요합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">③ 급여청구 출력시 급여청구 확정이 돼야 합니다.</div>
                     </v-card>
                 </v-col>
             </v-row>
             <v-row class="ma-0 pa-0" v-else no-gutters>
-                <!-- <v-col class="mb-6" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">요양원 급식</span>
-                </v-col>
-                <v-col class="mb-16" cols="12">
-                    <span class="fontSizeFdT">
-                        다양한 고령친화식 메뉴 편성으로, 일반식, 다진식, 갈식(죽식)등 최상의 맞춤형 식단을 제공하겠습니다.
-                    </span>
-                </v-col> -->
                 <v-col class="mb-12" cols="12">
                     <span class="fontSizeImageTitle font-weight-medium suibTitleDL">본인부담금 청구관리</span>
                 </v-col>
@@ -150,7 +203,7 @@
 
 <script>
 export default {
-    name: 'SelfPay',
+    name: 'CopayClmsMgmt',
 
     components: {
        

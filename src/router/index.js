@@ -46,6 +46,7 @@ import CopayDpstMgmt from '../components/copayDpstMgmt/CopayDpstMgmt.vue'
 import AllBnftSrvPrcs from '../components/allBnftSrvPrcs/AllBnftSrvPrcs.vue'
 
 import BnftSrvMgmt from '../components/bnftSrvMgmt/BnftSrvMgmt.vue'
+import BnfcrDietsMdl from '../components/bnftSrvMgmt/BnfcrDietsMdl.vue'
 
 import PhyscThrpyInspcPln from '../components/physcThrpyInspcPln/PhyscThrpyInspcPln.vue'
 import PhyscThrpyInspcPlnTab1 from '../components/physcThrpyInspcPln/PhyscThrpyInspcPlnTab1.vue'
@@ -130,7 +131,6 @@ import CnfrnRcrd from '../components/cnfrnRcrd/CnfrnRcrd.vue'
 import LvnRmStts from '../components/lvnRmStts/LvnRmStts.vue'
 
 import MnthlPlan from '../components/anlWrkPln/MnthlPlan.vue'
-import AnualPlan from '../components/anlWrkPln/AnualPlan.vue'
 
 import FacInfoMgmtTab1 from '../components/facInfoMgmt/FacInfoMgmtTab1.vue'
 import FacInfoMgmtTab2 from '../components/facInfoMgmt/FacInfoMgmtTab2.vue'
@@ -451,6 +451,12 @@ export const router = new VueRouter({
             path: '/bnftSrvMgmt/BnftSrvMgmt',
             name: 'BnftSrvMgmt',
             component: BnftSrvMgmt,
+            props: true,
+        },
+        {
+            path: '/bnftSrvMgmt/BnfcrDietsMdl',
+            name: 'BnfcrDietsMdl',
+            component: BnfcrDietsMdl,
             props: true,
         },
         {
@@ -790,12 +796,7 @@ export const router = new VueRouter({
             component: MnthlPlan,
             props: true,
         },
-        {
-            path: '/anlWrkPln/AnualPlan',
-            name: 'AnualPlan',
-            component: AnualPlan,
-            props: true,
-        },
+       
         {
             path: '/facInfoMgmt/FacInfoMgmtTab1',
             name: 'FacInfoMgmtTab1',

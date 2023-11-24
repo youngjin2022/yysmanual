@@ -131,7 +131,7 @@ export default {
                         items: [
                             { title: '1. 수급자 현황', name: 'BnfcrStatus' },
                             { title: '2. 노인인권, 건강검진', name: 'SRHS' },
-                            { title: '3. CCTV동의', name: 'AllBnfcrCctvBdrmMgmt' },
+                            // { title: '3. CCTV동의', name: 'AllBnfcrCctvBdrmMgmt' },
                         ],
                         title: '1-5. 전체수급자현황',
                     },
@@ -171,6 +171,7 @@ export default {
                         active: false,
                         items: [
                             { title: '1. 급여제공 계획 및 결과평가', name: 'BnftSrvMgmt' },
+                            { title: '2. 식이정보관리', name: 'BnfcrDietsMdl' },
                         ],
                         title:'2-2. 급여제공 계획 및 결과평가'
                     },

@@ -4,22 +4,36 @@
         <v-col class="" style="padding: 60px 0px;" :cols="this.$vuetify.breakpoint.mobile ? 10 : 8">
             <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">코드관리</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">일일치료</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-2 pb-14" cols="12">
-                    <v-card style="margin-bottom: 260px !important;"
+                    <v-card  
                         class=""
                         elevation="0" rounded="md" outlined>
-                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 코드관리 방법.</div>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 기록방법.</div>
                         <v-divider class="mx-4"></v-divider>
                         <div class="mt-4 mb-5 mx-4 fontSizeOne">
                             <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                                src="../../assets/images/CmmAuthMgmtStart.png">
+                                src="../../assets/images/PhyscThrpyRcrdDay.png">
                             </v-img>
                         </div>
                         <v-divider class="mx-4"></v-divider>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 추가가 필요한 항목 선택 후 개별 저장 및 삭제.</div>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 공통 코드들은 수정 및 삭제가 불가능합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 물리치료추가 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card  
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 2 &#41; 기록방법1.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/PhyscThrpyRcrdDay1.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 기입 란에 모두 입력 후 저장 버튼을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
             </v-row>
@@ -33,7 +47,7 @@
                     </span>
                 </v-col> -->
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">경관영양</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">일일치료</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-3" cols="12">
                     <v-card
@@ -63,20 +77,7 @@
                         </v-img>
                     </v-col>
                 </v-col>
-                <v-col class="d-flex justify-center px-3" cols="12">
-                    <v-card
-                        class="" style="width: 100%;"
-                        elevation="0" rounded="md">
-                        <div class="mt-2 mb-2 fontSizeOne font-weight-medium">STEP 3 &#41; 삭제 필요시 삭제하려는 수급자의 개인현황 클릭 후 삭제 버튼을 클릭해주세요.</div>
-                    </v-card>
-                </v-col>
-                <v-col class="d-flex mb-12" cols="12">
-                    <v-col cols="10" style="position: relative;">
-                        <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                            src="../../assets/images/PsnStatus2.png">
-                        </v-img>
-                    </v-col>
-                </v-col>
+               
             </v-row>
         </v-col>
         <v-spacer></v-spacer>

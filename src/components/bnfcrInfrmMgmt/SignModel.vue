@@ -4,22 +4,66 @@
         <v-col class="" style="padding: 60px 0px;" :cols="this.$vuetify.breakpoint.mobile ? 10 : 8">
             <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">코드관리</span>
+                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">전자서명</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-2 pb-14" cols="12">
-                    <v-card style="margin-bottom: 260px !important;"
+                    <v-card
                         class=""
                         elevation="0" rounded="md" outlined>
-                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 코드관리 방법.</div>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 전자서명 방법.</div>
                         <v-divider class="mx-4"></v-divider>
                         <div class="mt-4 mb-5 mx-4 fontSizeOne">
                             <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                                src="../../assets/images/CmmAuthMgmtStart.png">
+                                src="../../assets/images/DSign.png">
                             </v-img>
                         </div>
                         <v-divider class="mx-4"></v-divider>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 추가가 필요한 항목 선택 후 개별 저장 및 삭제.</div>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 공통 코드들은 수정 및 삭제가 불가능합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 수급자, 보호자와 함께 있을경우 파란색 작성 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 2 &#41; 전자서명 방법1.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/DSign1.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 서명 후 저장 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 3 &#41; 전자서명 방법2.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/DSign2.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 보호자가 모바일 서명을 요청할 시 서명요청 버튼을 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 4 &#41; 전자서명 방법3.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/DSign3.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 왼쪽 수신자를 선택 후 알림톡 발송을 클릭해주세요.</div>
                     </v-card>
                 </v-col>
             </v-row>

@@ -4,22 +4,38 @@
         <v-col class="" style="padding: 60px 0px;" :cols="this.$vuetify.breakpoint.mobile ? 10 : 8">
             <v-row class="ma-0 pa-0" v-if="this.$vuetify.breakpoint.mobile" no-gutters>
                 <v-col class="mb-12" cols="12">
-                    <span class="fontSizeImageTitle font-weight-medium suibTitleDL">코드관리</span>
+                    <span class="fontSizeImageTitle2 font-weight-medium suibTitleDL">급여제공 계획 및 결과평가</span>
                 </v-col>
                 <v-col class="d-flex justify-center px-2 pb-14" cols="12">
-                    <v-card style="margin-bottom: 260px !important;"
+                    <v-card 
                         class=""
                         elevation="0" rounded="md" outlined>
-                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 코드관리 방법.</div>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 1 &#41; 작성방법.</div>
                         <v-divider class="mx-4"></v-divider>
                         <div class="mt-4 mb-5 mx-4 fontSizeOne">
                             <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
-                                src="../../assets/images/CmmAuthMgmtStart.png">
+                                src="../../assets/images/CareProPln.png">
                             </v-img>
                         </div>
                         <v-divider class="mx-4"></v-divider>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 추가가 필요한 항목 선택 후 개별 저장 및 삭제.</div>
-                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 공통 코드들은 수정 및 삭제가 불가능합니다.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 작성이 필요한 해당 수급자의 급여제공 항목을 선택해주세요.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 파란색 작성 버튼은 신규작성이며, 기존 작성된 내용 수정 필요시 버튼 밑으로 나열된 항목중 맞는 날짜를 클릭해주세요.</div>
+                    </v-card>
+                </v-col>
+                <v-col class="d-flex justify-center px-2 pb-14" cols="12">
+                    <v-card 
+                        class=""
+                        elevation="0" rounded="md" outlined>
+                        <div class="mt-7 mb-2 mx-4 fontSizeFdT font-weight-medium">STEP 2 &#41; 작성방법1.</div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-4 mb-5 mx-4 fontSizeOne">
+                            <v-img alt="pencil" style="border: solid 1px black; height: 100%; width: 100%;" content-class
+                                src="../../assets/images/AllCarePP1.png">
+                            </v-img>
+                        </div>
+                        <v-divider class="mx-4"></v-divider>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">① 이전자료와 동일하거나 비슷하게 평가된다면 저장 옆 이전자료 버튼을 클릭해주세요.</div>
+                        <div class="mt-2 mb-2 mx-4 fontSizeDE">② 한번에 저장이 가능하니 현재 탭 작성 후 다음 탭으로 이어 작성하고 마지막에 저장을 클릭해주시면 됩니다.</div>
                     </v-card>
                 </v-col>
             </v-row>
@@ -86,7 +102,7 @@
 
 <script>
 export default {
-    name: 'CareProPln',
+    name: 'BnftSrvMgmt',
 
     components: {
        
